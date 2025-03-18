@@ -12,10 +12,12 @@
   "activationEvents": [],
   "main": "./extension.js",
   "contributes": {
-    "commands": [{
-      "command": "helloworld.helloWorld",
-      "title": "Hello World"
-    }]
+    "commands": [
+      {
+        "command": "newquote.newQuote",
+        "title": "Show a Quote"
+      }
+    ]
   },
   "scripts": {
     "lint": "eslint .",
