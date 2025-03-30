@@ -6,7 +6,7 @@ const quotes = [
 ];
 
 function getRandomQuote() {
-  return quotes[Math.floor(Math.random() * quotes.length)];
+  return quotes[Math.random() * quotes.length | 0];
 }
 
 module.exports = { getRandomQuote };
